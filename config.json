@@ -1,0 +1,1 @@
+{"url": "https://10.10.175.108:443/api/v1", "senseip":"192.168.1.102", "senseport": 4000, "username": "sym", "password": "sym", "rules": {"SenseTest": "101", "1123": "11123", "123458": "103", "123459": "123", "123": "adf", "444": "123", "dfasd": "adsfdf"}}

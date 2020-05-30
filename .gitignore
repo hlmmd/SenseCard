@@ -1,0 +1,4 @@
+build/
+dist/
+sensecard.spec
+__pycache__/
