@@ -1,10 +1,11 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow
-from senseui import *
-from multiprocessing import Process
-from flaskWebServer import *
-
 import json
+import sys
+
+from PyQt5.QtWidgets import QApplication, QMainWindow
+
+from flaskWebServer import *
+from senseui import *
+
 
 class MyWindow(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
