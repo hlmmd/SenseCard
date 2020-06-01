@@ -17,12 +17,12 @@ version:0.1
 * ServerIp：WebServer IP地址，一般为本机IP
 * ServerPort:WebServer 端口
 * Dest URL：Vingcard服务器的URL
+* 用户名：Vingcard服务器 用户名
+* 密码：Vingcard服务器 密码
 * 配置：SenseLink消息推送中deviceName到VingCard doorId的映射。在最后一行可以新增配置，将某一行清空可删除对应配置（均需保存）
 * 保存：保存配置更改，写入config.json
 * 开启服务器：开启WebServer，接收消息推送，此时配置不可保存更改
 * 关闭服务器：关闭WebServer。
-
-**注意：如需要更改VingCard的用户名和密码，请直接修改config.json文件**
 
 ## 编译说明
 

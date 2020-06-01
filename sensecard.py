@@ -21,6 +21,8 @@ class MyWindow(QMainWindow, Ui_MainWindow):
         self.lineEdit.setText(self._config['url'])
         self.lineEdit_2.setText(str(self._config['senseport']))
         self.lineEdit_3.setText(self._config['senseip'])
+        self.lineEdit_4.setText(self._config['username'])
+        self.lineEdit_5.setText(self._config['password'])
         rules = self._config['rules']
         count = len(rules)
         self.tableWidget.setRowCount(count+1)
@@ -60,6 +62,9 @@ class MyWindow(QMainWindow, Ui_MainWindow):
         self._config['url'] = self.lineEdit.text()
         self._config['senseport'] = int(self.lineEdit_2.text())
         self._config['senseip'] = self.lineEdit_3.text()
+        self._config['username'] = self.lineEdit_4.text()
+        self._config['password'] = self.lineEdit_5.text()
+                
         newRules = {}
         rowcount = self.tableWidget.rowCount()
         for i in range(rowcount):
